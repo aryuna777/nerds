@@ -1,0 +1,970 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    
+    height:100%;
+    font-family: 'Rubik','Roboto', sans-serif;
+
+}
+
+
+
+
+.page-header__logo
+{
+display: flex;
+position:relative; right:80%; float:right; width:auto;
+padding-top: 77px ;
+background-color: #EEEEEE;
+}
+
+
+.menu_main {
+    list-style-type: none;
+    padding-top: 91px;
+    text-align: center;
+    position:relative; left:-10%; float:right; width:auto;
+    color: #000;
+   
+}
+
+li {
+    float:left; 
+    margin-right:45px;
+    padding-left: 20px;
+
+}
+
+.li:last-child {
+padding-left: -50%;
+}
+a {
+    text-decoration: none; 
+    color: #000;
+
+}
+
+.li_shop {
+    position:relative; left:20%; float:right; width:auto;
+} 
+
+
+a:hover {
+    background:;/*добавляем эффект при наведении*/
+  }
+
+/* Header*/
+
+
+
+.header__menu {
+  
+    display: flex;
+    position:fixed;
+    order:10;
+    top:0;
+    left:;
+    min-width:100%;
+    min-height:10%;
+    padding-left: 500px;
+    background-color: #EEEEEE;
+    z-index:10;
+   
+
+ }
+
+.page-header__logo {
+    display: flex;
+    position:absolute;  
+    left:7%;
+    
+}
+
+
+ .banner {
+display: flex;
+justify-content: flex-start;
+padding-top:180px;
+min-width: 60%;
+min-height: 431px;
+
+
+ }
+
+ .header_class_text_h1 {
+display: flex;
+width: 400px;
+padding-top: 200px;
+font-size: 55px;
+font-family: Roboto, sans-serif;
+color:#000;
+    
+}
+    
+.header {
+display:flex;
+position:relative;
+min-width:1200px;
+min-height:auto;
+}
+
+
+ .header_class_text { 
+left: 10%;
+flex-basis:700px;
+padding-left: 100px;
+font-size:18px;
+font-family:Roboto, sans-serif;
+font-style: normal;
+color: #283136;
+
+
+ }
+
+
+ .page-header {
+display: flex;
+flex-direction:row-reverse;
+padding-left: 3%;
+align-items: flex-start;
+padding-top:20px;
+min-width:100%;
+min-height:50%;
+background-color:#EEEEEE;
+
+}
+
+ .header_button_style {
+    padding-left: 100px;
+    background-color: #FB565A;
+    font-family: Roboto, sans-serif;
+    border: none;
+    color:;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    max-width:240px;
+   min-height:50px;
+
+ }
+
+
+
+ body {
+    max-width: 100%;
+    min-width: auto;
+    height: auto;
+    background-color: #ffffff;
+    }
+
+
+.body_main_illustration  {
+
+display: flex;
+max-width: 100%;
+flex-direction: row;
+position: absolute;
+
+
+}
+
+
+
+.body_main_illustration_one {
+
+min-width:50%;
+position: absolute;
+width: 300px;
+min-height: 146px;
+left: 140px;
+top: 80px;
+
+}
+
+
+
+.main_illustration_two {
+    width:50%;
+
+position: absolute;
+min-width: 300px;
+min-height: 146px;
+left: 540px;
+top: 80px;
+
+}
+.main_illustration_three {
+
+min-width:50%;
+position: absolute;
+min-height: 146px;
+left: 940px;
+top: 80px;
+
+}
+
+
+
+
+.class_h2 {
+    
+display: flex;
+flex-direction: row;
+position:relative;
+align-items: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+ /* identical to box height, or 125% */
+ color: #000000;
+    
+
+}
+
+
+.class_text_body {
+
+display: flex;
+flex-direction: row;
+position: absolute;
+align-items: center;
+min-width: 260px;
+min-height: 49px;
+left: 1px;
+top: 200px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #283136;
+}
+
+
+
+
+.illustration_button {
+
+display: flex;
+flex-direction: row;
+position: absolute;
+align-items: center;
+min-width: 260px;
+min-height: 49px;
+left: 1px;
+top: 232px;
+padding-bottom: 0;
+}
+
+
+
+.illustration_button_one {
+position: absolute;
+min-width: 160px;
+max-height: 50px;
+left: 140px;
+top:780px;
+background: #FB565A;
+border-radius: 3px;
+border: none;
+}
+
+
+
+.illustration_button_two {
+position: absolute;
+min-width: 160px;
+max-height: 50px;
+left: 540px;
+top:780px;
+background: #00CA74;
+border-radius: 3px;
+border: none;
+}
+
+.illustration_button_three {
+position: absolute;
+min-width: 160px;
+max-height: 50px;
+left: 940px;
+top:780px;
+background: #EFC849;
+border-radius: 3px;
+border: none;
+
+ }
+
+.illustration_text-button
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 12px;
+/* identical to box height, or 112% */
+align-items: center;
+text-transform: uppercase;
+text-align: center;
+color: #ffffff;
+}
+
+
+.just_line {
+
+    position: absolute;
+    min-width: 80%;
+    min-height: 2px;
+    background: #31ff0c;
+    left:7.5%;
+    top: 160%;
+    
+}
+
+
+
+
+.all_flex_about_us {
+display:flex;
+margin-top:-10%;
+
+}
+
+
+
+.text_about_us_h1 {
+    position: absolute;
+    left: 9.72%;
+    right: 45.07%;
+    padding-top: 10px;
+    top: 175%;
+    bottom: 50.81%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+
+}
+
+
+
+.about_us_illustration {
+    position: absolute;
+    min-width: 360px;
+    min-height: 208px;
+    left: 60%;
+    top:165%;
+    background: url();
+
+
+}
+
+
+
+
+
+.text_about_us {
+    position: absolute;
+    left: 9.72%;
+    right: 45.42%;
+    top: 192%;
+    bottom: 47.54%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    color: #283136;
+
+
+}
+
+
+
+
+
+.text_about_us_h2 {
+    position: absolute;
+    min-height: 24px;
+    left: 9.72%;
+    right: 69.03%;
+    top: calc(185% - 24px/2 + 113px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    text-transform: uppercase;
+    
+    color: #283136;
+}
+
+
+li {
+list-style-type: none;
+margin-bottom: 1em;
+}
+
+
+.text_about_us_ul {
+
+    display:flex;
+    flex-direction:column;
+    position: absolute;
+    left: 9%;
+    right: 60%;
+    top: 205%;
+    bottom: 39.18%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #283136;
+}
+
+
+.about_us_line_one
+{
+position: absolute;
+min-width: 25px;
+min-height: 2px;
+left: 140px;
+top: 206%;
+
+background: #FB565A;
+}
+
+
+.about_us_line_two
+{
+position: absolute;
+min-width: 25px;
+min-height: 2px;
+left: 140px;
+top: 212%;
+
+background: #FB565A;
+}
+
+.about_us_line_three
+{
+position: absolute;
+min-width: 25px;
+min-height: 2px;
+left: 140px;
+top: 218%;
+
+background: #FB565A;
+}
+
+.about_us_numbers {
+
+    position: absolute;
+    left: 61%;
+    right: 9.72%;
+    top: 195%;
+    bottom: 44.99%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.about_us_numbers_interest_one {
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    max-height: 64px;
+    left: 61%;
+    right: 29.31%;
+    top: calc(180% - 64px/2 + 187px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+    /* identical to box height, or 142% */
+    color: #000000;
+
+
+}
+
+.about_us_numbers_interest_two {
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    max-height: 64px;
+    left: 70%;
+    right: 29.31%;
+    top: calc(180% - 64px/2 + 187px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+    /* identical to box height, or 142% */
+    color: #000000;
+
+
+}
+
+.about_us_numbers_interest_three {
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    max-height: 64px;
+    left: 79%;
+    right: 29.31%;
+    top: calc(180% - 64px/2 + 187px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+    /* identical to box height, or 142% */
+    color: #000000;
+
+
+}
+
+
+
+.about_us_numbers_interest_sign_one
+{
+
+    position: absolute;
+    max-height: 40px;
+    left: 66.5%;
+    right: 28%;
+    top: calc(180% - 40px/2 + 178px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    /* identical to box height, or 154% */
+    color: #000000;
+
+}
+
+
+.about_us_numbers_interest_sign_two
+{
+
+    position: absolute;
+    max-height: 40px;
+    left: 75.5%;
+    right: 28%;
+    top: calc(180% - 40px/2 + 178px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    /* identical to box height, or 154% */
+    color: #000000;
+
+}
+
+.about_us_numbers_interest_sign_three
+{
+
+    position: absolute;
+    max-height: 40px;
+    left: 82.7%;
+    right: 28%;
+    top: calc(180% - 40px/2 + 178px);
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    /* identical to box height, or 154% */
+    color: #000000;
+
+}
+
+
+.about_us_numbers_content_one {
+
+    position: absolute;
+    left: 61%;
+    right: 26.46%;
+    top: 215%;
+    bottom: 39.26%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #283136;
+    
+        
+
+}
+
+
+
+.about_us_numbers_content_two {
+
+    position: absolute;
+left: 70%;
+right: 26.46%;
+top: 215%;
+bottom: 39.26%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #283136;
+
+}
+
+.about_us_numbers_content_three {
+
+    position: absolute;
+left: 79%;
+right: 26.46%;
+top: 215%;
+bottom: 39.26%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #283136;
+
+}
+
+.just_line_two {
+    position: absolute;
+    min-width: 80%;
+    min-height: 2px;
+    left: 141px;
+    top: 230%;
+    
+    background: #EEEEEE;
+
+
+}
+
+.logotype_partners_one {
+
+    position: absolute;
+    max-width:209px;
+    max-height: auto;
+    left: 10%;
+    top: 233%;
+    opacity: 0.2;
+
+}
+
+.logotype_partners_two {
+position: absolute;
+max-width:209px;
+max-height: auto;
+left: 35%;
+top: 235%;
+opacity: 0.2;}
+
+.logotype_partners_three {
+    position: absolute;
+max-width:209px;
+max-height: auto;
+    left: 59%;
+    top: 236%;
+    opacity: 0.2;
+}
+
+.logotype_partners_four {
+
+    position: absolute;
+max-width:209px;
+max-height: auto;
+    left: 78%;
+    top: 235%;
+    opacity: 0.2;
+
+
+}
+
+.rec_one {
+position: absolute;
+min-width: 2px;
+min-height: 52px;
+left: 30%;
+top: 237%;
+background: #EEEEEE; }
+
+
+.rec_two {
+    position: absolute;
+min-width: 2px;
+min-height: 52px;
+    left: 55%;
+    top: 237%;
+    background: #EEEEEE; }
+    
+.rec_three {
+        
+    position: absolute;
+min-width: 2px;
+min-height: 52px;
+    left: 75%;
+    top: 237%;
+    background: #EEEEEE; }
+
+
+.just_line_three {
+        position: absolute;
+        min-width: 80%;
+        min-height: 2px;
+        left: 141px;
+        top: 250%;
+        background: #EEEEEE;
+    
+    
+    }
+    
+.map {
+    position: absolute;
+    width:100%;
+    height: 2px;
+    left: 0px;
+    top: 260%;
+
+}
+
+.footer_contacts {
+
+    position: absolute;
+    background-color:#ffffff;
+    left: 15%;
+    right: 68.12%;
+    top: 270%;
+    bottom: 12.98%;
+    z-index:2;
+
+}
+
+
+.footer_contacts_text_h3 {
+
+    z-index:3;
+    position: absolute;
+    left: 19.5%;
+    right: 50%;
+    top: 275%;
+    bottom: 45.26%;
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+    
+    display: flex;
+    align-items: center;
+     color: #000000;
+    
+}
+
+.footer_contacts_text {
+z-index:3;
+position: absolute;
+left: 19.5%;
+right: 50%;
+top: 286%;
+bottom: 45.26%;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* or 112% */
+
+display: flex;
+align-items: center;
+
+color: #666666;
+
+}
+
+
+
+
+.footer_button_style {
+position: absolute;
+left:43px;
+top:220px;
+width: 219px;
+height: 50px;
+bottom: 24.28%;
+border: none;
+background: #FB565A;
+border-radius: 3px;
+
+
+bottom: 27.88%;
+justify-content: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+
+
+.footer_text_end {
+    position: absolute;
+    width: 660px;
+    height: 36px;
+    left: 45%;
+    top: 315%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+}
+
+
+.social_media_vk {
+position: absolute;
+width: 81px;
+height: 81px;
+left: 15%;
+top: 320%;
+border:none; 
+} 
+
+
+
+.social_media_f {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 21.5%;
+    top:320%;
+    border:none; 
+
+
+}
+
+.social_media_just {
+position: absolute;
+width: 81px;
+height: 81px;
+left: 28.5%;
+top:320%;
+border:none; 
+}
+
+
+
+.footer_text_end_sale {
+
+position: absolute;
+width: 373px;
+height: 22px;
+left:45%;
+top: 323%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+
+
+}
+
+
+
